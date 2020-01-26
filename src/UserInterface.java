@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +8,9 @@ public class UserInterface {
     static boolean exitFlag = true;
     static Scanner scanner = new Scanner (System.in) ;
     static ArrayList <Bike> ecoBikeBase = new ArrayList<>();
-    static String path = "C:\\Users\\kalin\\IdeaProjects\\Ecobike\\.idea\\resource\\ecobike.txt";
+    static String path = ".idea\\resource\\ecobike.txt";
+
+
     public void start (){
 
         try {

@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EcoBikeBase {
-    String path = "C:\\Users\\kalin\\IdeaProjects\\Ecobike\\.idea\\resource\\ecobike.txt";
 
     public static void fillingEcoBikeBase (ArrayList <Bike> ecoBikeBase, String path) throws IOException {
        Scanner scanner = new Scanner(new File(path));
