@@ -340,10 +340,10 @@ public static void addNewFoldingBike (List <Bike> ecoBikeBase) {
         ecoBikeBase.add(new Speedelec(brand, maxSpeed, bikeWeight, availabilityOfLights, batteryCapacity, bikeColor, price));
         System.out.println("You successfully adding your bike to the database with parameters: ");
         System.out.println("brand " + ecoBikeBase.get(ecoBikeBase.size()-1).getBrand() + ";");
-        System.out.println("maximum speed " + ((EBike)ecoBikeBase.get(ecoBikeBase.size()-1)).getMaximumSpeed()+ " km/h;");
+        System.out.println("maximum speed " + ((Speedelec)ecoBikeBase.get(ecoBikeBase.size()-1)).getMaximumSpeed()+ " km/h;");
         System.out.println("bike weight " + ecoBikeBase.get(ecoBikeBase.size()-1).getWeight() + " grams;");
         System.out.println("availability of lights " + ecoBikeBase.get(ecoBikeBase.size()-1).isAvailabilityOfLights()+ ";");
-        System.out.println("battery capacity " + ((EBike)ecoBikeBase.get(ecoBikeBase.size()-1)).getBatteryCapacity() + " mAh;");
+        System.out.println("battery capacity " + ((Speedelec)ecoBikeBase.get(ecoBikeBase.size()-1)).getBatteryCapacity() + " mAh;");
         System.out.println("color " + ecoBikeBase.get(ecoBikeBase.size()-1).getColor() + ";");
         System.out.println("price " + ecoBikeBase.get(ecoBikeBase.size()-1).getPrice() + " $;");
         }
